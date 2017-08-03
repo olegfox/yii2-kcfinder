@@ -1,6 +1,6 @@
 <?php
 
-namespace iutbay\yii2kcfinder;
+namespace olegfox\yii2kcfinder;
 
 use yii\web\AssetBundle;
 
