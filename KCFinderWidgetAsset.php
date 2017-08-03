@@ -11,7 +11,7 @@ use yii\web\AssetBundle;
 class KCFinderWidgetAsset extends AssetBundle
 {
 
-    public $sourcePath = '@vendor/iutbay/yii2-kcfinder/assets';
+    public $sourcePath = '@vendor/olegfox/yii2-kcfinder/assets';
     public $publishOptions = [
         'forceCopy' => YII_DEBUG,
     ];
@@ -24,7 +24,7 @@ class KCFinderWidgetAsset extends AssetBundle
     public $depends = [
         'yii\web\JqueryAsset',
         'yii\jui\JuiAsset',
-        'iutbay\yii2kcfinder\KCFinderAsset',
+        'olegfox\yii2kcfinder\KCFinderAsset',
     ];
 
 }
